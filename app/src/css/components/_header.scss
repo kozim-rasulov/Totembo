@@ -1,0 +1,21 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+
+    &__lang {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    &__logo {
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__search {
+        font-size: 20px;
+    }
+}

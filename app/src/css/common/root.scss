@@ -1,0 +1,12 @@
+:root {
+  --bg: #F1F1F1;;
+  --main-color: #323232;
+  --font-first: "Montserrat", san-serif;
+  // --font-second: "Times New Roman";
+}
+
+@mixin media($size){
+  @media (max-width: #{$size}px) {
+    @content;
+  }
+}
