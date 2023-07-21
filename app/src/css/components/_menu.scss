@@ -25,6 +25,7 @@
         font-size: 18px;
     }
 }
+
 .menu {
     display: flex;
     gap: 50px;
@@ -34,4 +35,9 @@
         text-transform: capitalize;
         
     }
+}
+
+.hamburger {
+    font-size: 21px;
+    display: none;
 }
